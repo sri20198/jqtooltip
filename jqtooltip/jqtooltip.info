@@ -1,0 +1,7 @@
+name = jQuery UI Tooltip
+description = Enables jQuery UI Tooltip
+core = 7.x
+
+package = custom
+
+dependencies[] = jquery_update (>=2.4)
