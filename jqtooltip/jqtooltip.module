@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_init()
+ * Load jQuery UI Tooltip library for all pages
+ * Enable jQuery UI Tooltip
+ */
+function jqtooltip_init() {
+	drupal_add_library('system', 'ui.tooltip');
+	drupal_add_js(drupal_get_path('module', 'jqtooltip') .'/jqtooltip.js');
+}
